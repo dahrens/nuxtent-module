@@ -20,7 +20,7 @@ const corePlugins = [
   }),
   babel({
     babelrc: false,
-    presets: [['es2015', { modules: false }], 'stage-2'],
+    presets: [['es2015', { modules: false }], 'stage-2', 'flow'],
     plugins: [
       'transform-async-to-generator',
       [
